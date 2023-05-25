@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "profileImg": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Rena",
+      "profileImg": "https://images.unsplash.com/photo-1558499932-9609acb6f443?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGdpcmx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "usersId": 1,
+      "image": "https://images.unsplash.com/photo-1679671386526-5db9696e976b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "caption": "Hello, Welocome sunday, Hope this will be nice day"
+    },
+    {
+      "id": 2,
+      "usersId": 1,
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=420&q=80",
+      "caption": "my new nice shirt"
+    },
+    {
+      "id": 3,
+      "usersId": 2,
+      "image": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "caption": "no caption"
+    },
+    {
+      "caption": "i got something....",
+      "link": "",
+      "id": 4,
+      "usersId": 1,
+      "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZhc2hpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "caption": "a woderful brownnnn <3",
+      "link": "",
+      "usersId": 1,
+      "image": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postsId": 1,
+      "comment": "wow wow wow wowww"
+    }
+  ]
+}
